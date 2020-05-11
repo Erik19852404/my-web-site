@@ -1,0 +1,239 @@
+/* Global Styles */
+
+* {
+  font-family: 'Julius Sans One', sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #f0daaa;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sand.jpg");
+  background-repeat:no-repeat;
+  background-size: 120% 120vh;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
+
+input {
+  font-size: 2vh;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #BDBDBD;
+}
+
+label {
+  font-size: 2vh;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* Button */
+.button, button {
+  display: inline-block;
+  padding: 1vh 2vh 1vh 2vh;
+  font-size: 1.6vh; 
+  color: #eff1f1; 
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/brand-blue-font-blue-button.jpg");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  border-radius: 9px;
+  font-family: 'Julius Sans One', sans-serif; 
+  margin: 0 0 24px; 
+  text-shadow: 1px 1px 1px #4da4b9;
+  line-height: 10px; 
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  cursor: pointer;
+  max-height: 9vh;
+  min-height: 2vh;
+}
+
+.button:hover, button:hover {
+  font-weight: bolder;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+app-top-bar {
+  cursor: pointer;
+}
+
+h1 { 
+  font-size: 4vh;
+  color: rgb(228, 236, 241); 
+  font-family: 'Rouge Script', cursive; 
+  font-weight: normal; 
+  text-align: center; 
+  text-shadow: 2px 2px 4px #0b7c96; 
+}
+
+h2 {
+  font-size: 2.5vh;
+}
+
+h3 {
+  font-size: 2vh;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+h2, h3 { 
+  color: rgb(0, 82, 121); 
+  font-family: 'Julius Sans One', sans-serif; 
+  font-weight: bold;  
+  text-shadow: 1px 1px 1px #f5dd9c; 
+}
+
+p, li { 
+  color: rgb(0, 82, 121); 
+  font-family: 'Carme', sans-serif; 
+  line-height: 3vh; 
+  margin: 0 0 0px; 
+  font-size: 1.52vh;
+  font-weight: bold;
+}
+
+a { 
+  text-decoration: underline; 
+  cursor: pointer;
+  color: #1976d2;
+  opacity: 1;
+}
+
+a:hover { 
+  color: #10b5df; 
+  text-decoration: underline;
+  opacity: 0,9;
+  font-weight: bold;
+}
+
+div {
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sand_74190-171.jpg);
+  opacity: 0.9;  
+  border: 0.1vh solid transparent;
+  border-color: rgb(138, 188, 229);
+  border-radius: 5%;
+}
+
+.content{
+  height: 100%;
+  margin: 1vh 1vh 1vh 1vh;
+  padding: 1vh 1vh 1vh 1vh;  
+  max-width: 100%;
+}
+
+.breafing {
+  height: 100%;
+  margin: 3vh 1vh 0 1vh;
+  padding: 1vh 0.5vh 1vh 2vh;  
+  float:left;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+#animated-picture {
+  width: 100%;
+  z-index: 7;
+  animation: animated-picture-move 4s linear infinite;
+}
+
+#picture-box {
+  width: 7vh;
+  height: 7vh;
+  position: fixed;
+  top: 90vh;
+  left: 10vh;
+  z-index: 5;
+  background: none;
+  border: none;
+  animation: animated-picture-rotate 70s linear infinite;
+  
+}
+
+@keyframes animated-picture-move{
+    0%{
+      transform: scaleX(1);
+    }
+    30%{
+      transform: scaleX(0.7);
+    }
+    60%{
+      transform: scaleX(1.1);
+    }
+    90%{
+      transform: scaleX(0.8);
+    }
+    100%{
+      transform: scaleX(1);
+    }
+}
+
+
+@keyframes animated-picture-rotate{
+    0%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    25%{
+      transform: rotate(20deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    45%{
+      transform: rotate(80deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    55%{
+      transform: rotate(90deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    65%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    75%{
+      transform: rotate(-60deg);
+      position: absolute;
+      top: 80vh;
+      left: 50vh;
+    }
+    80% {
+      transform: rotate(-120deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+    100%{
+      transform: rotate(0deg);
+      position: absolute;
+      top: 90vh;
+      left: 10vh;
+    }
+}

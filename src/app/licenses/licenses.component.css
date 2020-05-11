@@ -1,0 +1,32 @@
+img {
+  flex: left;
+  max-width: 30%;
+  max-height: 20vh;
+  border: 0.1vh solid transparent;
+  border-color: rgb(138, 188, 229);
+  border-radius: 5%;
+}
+
+img:hover {
+  border-width: 0.4vh;
+}
+
+#first {
+  margin: 1vh 0vh 3vh 4vh;
+  z-index: 2;
+}
+
+#second {
+  margin: 2vh 0vh 6vh 5vh;
+  z-index: 1;
+}
+
+#third {
+  margin: -1vh 0vh 1vh 14vh;
+  z-index: 3;
+}
+
+#forth {
+  margin: 0vh 0vh 5vh -3vh;
+  z-index: 4;
+}

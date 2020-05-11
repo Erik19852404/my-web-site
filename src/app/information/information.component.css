@@ -1,0 +1,27 @@
+h2 {
+  margin: 4px;
+}
+
+ul{
+  margin: 2px 2px 0px 2px;
+  height: 100%;
+}
+
+li {
+  height: 100%;
+}
+
+#share {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  background-size: 100% 100%;
+  cursor: pointer;
+  float: left;
+  border-radius: 5px;
+  margin: 0.1vh;
+}
+
+#share:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,6 @@
+<div>
+  <button type="button" id="home-btn" routerLink="" (click)="activateBtn('')"></button>
+  <button type="button" class="long-text" routerLink="licenses" (click)="activateBtn('licenses')" [@btnTrigger]="getActiveBtn() == 'licenses' ? 'activated' : 'deactivated'">Сертификаты</button>
+  <button type="button" routerLink="services" (click)="activateBtn('services')" [@btnTrigger]="getActiveBtn() == 'services' ? 'activated' : 'deactivated'">Услуги</button>
+  <button type="button" routerLink="contacts" (click)="activateBtn('contacts')" [@btnTrigger]="getActiveBtn() == 'contacts' ? 'activated' : 'deactivated'">Контакты</button>
+</div>

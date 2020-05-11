@@ -1,0 +1,22 @@
+div {
+  width: 100%;
+  margin: 1vh 0vh 0vh 0vh;
+  padding: 1vh 1vh 1vh 1vh;
+  align-items: center; 
+}
+
+button{
+  text-align: center;
+  padding: 1vh 1vh 1vh 1vh;
+  margin: 0.3vh 1vh 0.3vh 0.3vh;
+}
+
+#home-btn {
+  width: 5vh;
+  height: 5vh;
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/home-icon-png-clip-art.png);
+}
+
+#home-btn:hover{  
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/home-icon-colored.png);
+}

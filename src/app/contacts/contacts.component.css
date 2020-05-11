@@ -1,0 +1,11 @@
+#map {
+  height: 50vh;
+  padding: 0 0 0 0;  
+  max-width: 47.2%;  
+  overflow: hidden;
+  opacity: 0.9;  
+  border: 0.1vh solid transparent;
+  border-color: rgb(138, 188, 229);
+  border-radius: 5%;
+  margin: 1vh 1vh 0 1vh; 
+}
