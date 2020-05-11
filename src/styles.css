@@ -9,8 +9,8 @@
 
 body {
   margin: 0;
-  background-color: #f0daaa;
-  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/moon-night-sea.jpg");
+  background-color: #000000;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/moon-night-sea2.jpg");
   background-repeat:no-repeat;
   background-size: 120% 120vh;
 }
@@ -24,7 +24,7 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid rgb(255, 251, 251);
 }
 
 label {
@@ -72,11 +72,11 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: rgb(228, 236, 241); 
+  color: rgb(255, 255, 255); 
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #0b7c96; 
+  text-shadow: 2px 2px 4px #0a3c99; 
 }
 
 h2 {
@@ -92,14 +92,14 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: rgb(0, 82, 121); 
+  color: rgb(255, 255, 255); 
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #f5dd9c; 
+  text-shadow: 1px 1px 1px #0015d4; 
 }
 
 p, li { 
-  color: rgb(0, 82, 121); 
+  color: rgb(255, 255, 255); 
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
@@ -122,8 +122,7 @@ a:hover {
 }
 
 div {
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(104, 104, 104));
-  opacity: 0.6;  
+  background-image: linear-gradient(rgb(31, 30, 30), rgb(36, 45, 83));
   border: 0.1vh solid transparent;
   border-color: rgb(255, 255, 255);
   border-radius: 5%;

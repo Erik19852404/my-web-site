@@ -19,9 +19,11 @@ li {
   cursor: pointer;
   float: left;
   border-radius: 5px;
-  margin: 0.1vh;
+  margin: 0.3vh;
+  opacity: 1;
+  border: 2px solid rgb(255, 255, 255)
 }
 
 #share:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
