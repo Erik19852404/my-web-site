@@ -2,16 +2,14 @@ div {
   display: flex;
   background-color: #3f8cf0;
   background-size: 100% 100%;
-  border: 0.3vh solid transparent;
-  border-color: rgb(138, 188, 229);
-  border-radius: 0;
+  border: none;
 }
 
 #sky {
 	overflow: hidden;  
 }
 
-#clouds {  
+#stars {  
 	width: 120%;
 	height: 17vh;
   border: none;
@@ -23,7 +21,7 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-	animation: movingclouds 60s linear infinite;
+	animation: movingstars 60s linear infinite;
 }
 
 #text {
@@ -34,7 +32,7 @@ div {
   animation: movingtext 60s linear infinite;
 }
 
-@keyframes movingclouds {
+@keyframes movingstars {
 	0% {margin: 0 -20% 0 0;}
 	50% {margin: 0 0 0 -20%;}
 	100% {margin: 0 -20% 0 0;}

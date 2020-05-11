@@ -10,7 +10,7 @@
 body {
   margin: 0;
   background-color: #f0daaa;
-  background-image: url("http://nebula.wsimg.com/62d6a54e8d1246a0b5ec34a9a10597c9?AccessKeyId=8AF2F4F9AAD25AB89E4F&disposition=0&alloworigin=1");
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/moon-night-sea.jpg");
   background-repeat:no-repeat;
   background-size: 120% 120vh;
 }
@@ -122,10 +122,10 @@ a:hover {
 }
 
 div {
-  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sand_74190-171.jpg);
-  opacity: 0.9;  
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(104, 104, 104));
+  opacity: 0.6;  
   border: 0.1vh solid transparent;
-  border-color: rgb(138, 188, 229);
+  border-color: rgb(255, 255, 255);
   border-radius: 5%;
 }
 
