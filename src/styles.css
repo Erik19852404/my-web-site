@@ -41,10 +41,10 @@ label {
   padding: 1vh 2vh 1vh 2vh;
   font-size: 1.6vh; 
   color: #eff1f1; 
-  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/brand-blue-font-blue-button.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/btn.jpg");
   background-repeat:no-repeat;
   background-size: 100% 100%;
-  border-radius: 9px;
+  border-radius: 12px;
   font-family: 'Julius Sans One', sans-serif; 
   margin: 0 0 24px; 
   text-shadow: 1px 1px 1px #4da4b9;
