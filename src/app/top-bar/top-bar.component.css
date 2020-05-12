@@ -12,20 +12,24 @@ div {
 
 @keyframes animate-background {
   0%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shape1.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes1.jpg");
     background-size: 100% 100%;
+    background-repeat: repeat;
   }
   30%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shape2.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes2.jpg");
     background-size: 100% 100%;
+    background-repeat: repeat;
   }
   60%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shape3.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes3.jpg");
     background-size: 100% 100%;
+    background-repeat: repeat;
   }
   100%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shape1.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes1.jpg");
     background-size: 100% 100%;
+    background-repeat: repeat;
   }
 }
 
