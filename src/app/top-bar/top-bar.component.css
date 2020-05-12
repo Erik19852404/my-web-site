@@ -12,7 +12,7 @@ div {
 
 @keyframes animate-background {
   0%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes1.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes4.jpg");
     background-size: 100% 100%;
     background-repeat: repeat;
   }
@@ -27,7 +27,7 @@ div {
     background-repeat: repeat;
   }
   100%{
-    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes1.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes4.jpg");
     background-size: 100% 100%;
     background-repeat: repeat;
   }
