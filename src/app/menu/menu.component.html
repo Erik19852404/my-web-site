@@ -1,6 +1,6 @@
 <div>
   <button type="button" id="home-btn" routerLink="" (click)="activateBtn('')"></button>
-  <button type="button" class="long-text" routerLink="licenses" (click)="activateBtn('licenses')" [@btnTrigger]="getActiveBtn() == 'licenses' ? 'activated' : 'deactivated'">My skills</button>
-  <button type="button" routerLink="services" (click)="activateBtn('services')" [@btnTrigger]="getActiveBtn() == 'services' ? 'activated' : 'deactivated'">Work expirience</button>
+  <button type="button" class="long-text" routerLink="skills" (click)="activateBtn('licenses')" [@btnTrigger]="getActiveBtn() == 'licenses' ? 'activated' : 'deactivated'">My skills</button>
+  <button type="button" routerLink="expirience" (click)="activateBtn('services')" [@btnTrigger]="getActiveBtn() == 'services' ? 'activated' : 'deactivated'">Work expirience</button>
   <button type="button" routerLink="contacts" (click)="activateBtn('contacts')" [@btnTrigger]="getActiveBtn() == 'contacts' ? 'activated' : 'deactivated'">Contacts</button>
 </div>

@@ -13,6 +13,8 @@ import { OurTeamComponent } from './our-team/our-team.component';
 import { DetailesComponent } from './detailes/detailes.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { BtnMgmtService } from './btn-mgmt.service';
+import { MySkillsComponent } from './my-skills/my-skills.component';
+import { WorkExpirienceComponent } from './work-expirience/work-expirience.component';
 
 @NgModule({
   imports:      [ 
@@ -24,9 +26,11 @@ import { BtnMgmtService } from './btn-mgmt.service';
       { path:"", component: InformationComponent },
       { path:"detailes", component: DetailesComponent },
       { path:"contacts", component: ContactsComponent },
+      { path:"skills", component: MySkillsComponent },
+      { path:"expirience", component: WorkExpirienceComponent },
     ]
   ), ],
-  declarations: [ AppComponent, TopBarComponent, MenuComponent, InformationComponent, FooterComponent, OurTeamComponent, DetailesComponent, ContactsComponent],
+  declarations: [ AppComponent, TopBarComponent, MenuComponent, InformationComponent, FooterComponent, OurTeamComponent, DetailesComponent, ContactsComponent, MySkillsComponent, WorkExpirienceComponent],
   bootstrap:    [ AppComponent ],
   providers: [BtnMgmtService],
 })
