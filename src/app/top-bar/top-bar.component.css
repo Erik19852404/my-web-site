@@ -7,6 +7,34 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  animation: animate-background 6s ease-out infinite;
+}
+
+@keyframes animate-background {
+  0%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye1.jpg");
+    background-size: 100% 100%;
+  }
+  20%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye2.jpg");
+    background-size: 100% 100%;
+  }
+  40%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye3.jpg");
+    background-size: 100% 100%;
+  }
+  60%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye5.jpg");
+    background-size: 100% 100%;
+  }
+  80%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye4.jpg");
+    background-size: 100% 100%;
+  }
+  100%{
+    background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/eye1.jpg");
+    background-size: 100% 100%;
+  }
 }
 
 #text {  
