@@ -7,29 +7,29 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  animation: animate-background 30s ease-out infinite;
+  animation: animate-background 10s ease-out infinite;
 }
 
 @keyframes animate-background {
   0%{
     background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes4.jpg");
     background-size: 100% 100%;
-    background-repeat: repeat;
+    opacity: 0.5;
   }
   30%{
     background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes2.jpg");
     background-size: 100% 100%;
-    background-repeat: repeat;
+    opacity: 0.5;
   }
   60%{
     background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes3.jpg");
     background-size: 100% 100%;
-    background-repeat: repeat;
+    opacity: 0.5;
   }
   100%{
     background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/shapes4.jpg");
     background-size: 100% 100%;
-    background-repeat: repeat;
+    opacity: 0.5;
   }
 }
 
