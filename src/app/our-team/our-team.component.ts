@@ -12,6 +12,7 @@ import {
 } from '@angular/animations';
 
 import { teamMembers } from '../team-members';
+import { delay } from 'rxjs/operators';
 
 @Component({
   selector: 'app-our-team',
@@ -61,4 +62,10 @@ export class OurTeamComponent implements OnInit {
   getActiveBtn(){
     return this.btnMgmt.getActiveBtn();
   }
+
+  changePhoto(index){
+    let myPhoto = document.getElementById("my_photo");
+    myPhoto.src = "https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/photo" + index + ".jpg";
+  }
+
 }
