@@ -47,6 +47,7 @@ import { delay } from 'rxjs/operators';
 export class OurTeamComponent implements OnInit {
   
   teamMembers = teamMembers;
+  index = 1;
 
   constructor(
     private btnMgmt: BtnMgmtService,
@@ -63,9 +64,13 @@ export class OurTeamComponent implements OnInit {
     return this.btnMgmt.getActiveBtn();
   }
 
-  changePhoto(index){
-    let myPhoto = document.getElementById("my_photo");
-    myPhoto.src = "https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/photo" + index + ".jpg";
-  }
+  changePhoto(){
+    if (this.index > 2)
+      this.index = 1;
+    else
+      this.index += 1;
 
+    let myPhoto = document.getElementById("my_photo");
+    myPhoto.src = "https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/photo" + this.index + ".jpg";
+  }
 }

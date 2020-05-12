@@ -39,3 +39,7 @@ button {
   border: none;
   margin: 1vh 1vh 1vh 1.5vh;
 }
+
+#picture-container:hover {
+  cursor: pointer;
+}
