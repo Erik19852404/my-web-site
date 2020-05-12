@@ -40,14 +40,14 @@ label {
   display: inline-block;
   padding: 1vh 2vh 1vh 2vh;
   font-size: 1.6vh; 
-  color: #eff1f1; 
+  color: #000000; 
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/btn.jpg");
   background-repeat:no-repeat;
   background-size: 100% 100%;
   border-radius: 12px;
   font-family: 'Julius Sans One', sans-serif; 
   margin: 0 0 24px; 
-  text-shadow: 1px 1px 1px #4da4b9;
+  text-shadow: 1px 1px 1px #924803;
   line-height: 10px; 
   text-align: center;
   vertical-align: middle;
@@ -72,11 +72,11 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: rgb(243, 95, 9);  
+  color: rgb(0, 0, 0);  
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #864b24; 
+  text-shadow: 2px 2px 4px #723d0b; 
 }
 
 h2 {
@@ -92,14 +92,14 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: rgb(243, 95, 9);   
+  color: rgb(0, 0, 0);   
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #864b24;
+  text-shadow: 1px 1px 1px #723d0b; 
 }
 
 p, li { 
-  color: rgb(212, 79, 2);  
+  color: rgb(0, 0, 0);  
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
@@ -125,7 +125,8 @@ div {
   background-color: rgb(218, 198, 175);
   border: 0.1vh solid transparent;
   border-color: rgb(212, 209, 175);
-  border-radius: 5%;
+  border-radius: 2%;
+  opacity: 0.95;
 }
 
 .content{
