@@ -11,7 +11,7 @@ div {
 
 #text {  
   border: none;
-	width: 15vh;
+	width: 50vh;
 	height: 4vh;
   justify-content: center;
   position: absolete;
@@ -24,78 +24,79 @@ div {
 @keyframes movingtext {
   0%{
     transform: rotate(0deg);
-    font-size: 3vh;
-    opacity: 0.8;
-    margin: 0 0 0 20%;
+    font-size: 0.5vh;
+    opacity: 0.5;
+    margin: 0 0 0 5%;
     text-shadow: 2px 2px 4px rgb(255, 255, 255);
   }
   10%{
     transform: rotate(5deg);
-    font-size: 2vh;
+    font-size: 1vh;
     opacity: 0.6;
-    margin: 5vh 0 0 20%;
+    margin: 5vh 0 0 15%;
     text-shadow: 2px 2px 4px rgb(214, 216, 186);
     }
   20%{
     transform: rotate(-5deg);
-    font-size: 4vh;
+    font-size: 2vh;
     opacity: 0.9;
-    margin: 10vh 0 0 40%;
+    margin: 10vh 0 0 20%;
     text-shadow: 2px 2px 4px rgb(164, 187, 165);
   }
   30%{
     transform: rotate(5deg);
-    font-size: 1vh;
+    font-size: 0.5vh;
     opacity: 0.5;
-    margin: 5vh 0 0 60%;
+    margin: 5vh 0 0 30%;
     text-shadow: 2px 2px 4px rgb(142, 153, 184);
   }  
   40%{
     transform: rotate(-5deg);
+    font-size: 3vh;
     opacity: 1;
-    margin: 10vh 0 0 70%;
+    margin: 10vh 0 0 35%;
     text-shadow: 2px 2px 4px rgb(199, 163, 184);
   }
   50%{
     transform: rotate(10deg);
-    font-size: 5vh;
-    opacity: 1;
-    margin: 5vh 0 0 60%;
+    font-size: 2vh;
+    opacity: 0.7;
+    margin: 5vh 0 0 30%;
     text-shadow: 2px 2px 4px rgb(152, 189, 187);
     }
   60%{
     transform: rotate(-10deg);
-    font-size: 3vh;
+    font-size: 1.5vh;
     opacity: 0.6;
     margin: 0 0 0 50%;
     text-shadow: 2px 2px 4px rgb(148, 170, 175);
   }
   70%{
     transform: rotate(5deg);
-    font-size: 5vh;
+    font-size: 3vh;
     opacity: 1;
-    margin: 0 0 5vh 40%;
+    margin: 0 0 5vh 20%;
     text-shadow: 2px 2px 4px rgb(149, 163, 158);
   }
   80%{
     transform: rotate(-5deg);
-    font-size: 2vh;
+    font-size: 1vh;
     opacity: 0.5;
-    margin: 0 0 10vh 30%;
+    margin: 0 0 10vh 15%;
     text-shadow: 2px 2px 4px rgb(209, 198, 182);
   }
   90%{
     transform: rotate(5deg);
-    font-size: 3vh;
+    font-size: 1.5vh;
     opacity: 0.6;
     margin: 0 0 5vh 10%;
     text-shadow: 2px 2px 4px rgb(135, 129, 148);
   }
   100%{
     transform: rotate(0deg);
-    font-size: 2vh;
+    font-size: 1vh;
     opacity: 0.5;
-    margin: 0 0 0 20%;
+    margin: 0 0 0 5%;
     text-shadow: 2px 2px 4px rgb(180, 185, 165);
   }
 }
