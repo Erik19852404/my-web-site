@@ -36,7 +36,7 @@ import { delay } from 'rxjs/operators';
     ]),
     trigger('divTrigger', [
       transition('* <=> *', [
-        animate('500ms ease-in-out', keyframes([
+        animate('200ms ease-in-out', keyframes([
           style({ opacity: 0 }),
           style({ opacity: 0.95 }),
         ]))
