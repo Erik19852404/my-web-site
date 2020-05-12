@@ -1,6 +1,5 @@
 div {
   display: flex;
-  background-color: #3f8cf0;
   background-size: 100% 100%;
   border: none;
 }
@@ -13,15 +12,11 @@ div {
 	width: 120%;
 	height: 17vh;
   border: none;
-	background-image: url('https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/stars.jpg');
-	background-size: cover;
-  background-repeat:repeat;
   padding: 1vh;
   opacity: 0.95;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-	animation: movingstars 60s linear infinite;
 }
 
 #text {
@@ -30,16 +25,4 @@ div {
   justify-content: center;
   position: absolete;
   animation: movingtext 60s linear infinite;
-}
-
-@keyframes movingstars {
-	0% {margin: 0 -20% 0 0;}
-	50% {margin: 0 0 0 -20%;}
-	100% {margin: 0 -20% 0 0;}
-}
-
-@keyframes movingtext {
-	0% {margin: 0 20% 0 0;}
-	50% {margin: 0 0 0 20%;}
-	100% {margin: 0 20% 0 0;}
 }

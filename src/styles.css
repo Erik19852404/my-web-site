@@ -72,11 +72,11 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: rgb(255, 255, 255); 
+  color: rgb(189, 169, 79);  
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #0a3c99; 
+  text-shadow: 2px 2px 4px #3b2e09; 
 }
 
 h2 {
@@ -92,14 +92,14 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: rgb(255, 255, 255); 
+  color: rgb(189, 169, 79);  
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #0015d4; 
+  text-shadow: 1px 1px 1px #3b2e09;  
 }
 
 p, li { 
-  color: rgb(255, 255, 255); 
+  color: rgb(105, 94, 43);  
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
@@ -122,9 +122,9 @@ a:hover {
 }
 
 div {
-  background-image: linear-gradient(rgb(31, 30, 30), rgb(36, 45, 83));
+  background-color: rgb(235, 228, 220);
   border: 0.1vh solid transparent;
-  border-color: rgb(255, 255, 255);
+  border-color: rgb(212, 209, 175);
   border-radius: 5%;
 }
 
@@ -169,41 +169,8 @@ div {
       top: 90vh;
       left: 10vh;
     }
-    25%{
-      transform: rotate(20deg);
-      position: absolute;
-      top: 90vh;
-      left: 10vh;
-    }
-    45%{
-      transform: rotate(80deg);
-      position: absolute;
-      top: 90vh;
-      left: 10vh;
-    }
-    55%{
-      transform: rotate(90deg);
-      position: absolute;
-      top: 80vh;
-      left: 50vh;
-    }
-    65%{
-      transform: rotate(0deg);
-      position: absolute;
-      top: 80vh;
-      left: 50vh;
-    }
-    75%{
-      transform: rotate(-60deg);
-      position: absolute;
-      top: 80vh;
-      left: 50vh;
-    }
-    80% {
-      transform: rotate(-120deg);
-      position: absolute;
-      top: 90vh;
-      left: 10vh;
+    50%{
+      
     }
     100%{
       transform: rotate(0deg);
