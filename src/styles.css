@@ -11,8 +11,8 @@ body {
   margin: 0;
   background-color: #ffffff;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/my-picture.jpg");
-  background-repeat:no-repeat;
-  background-size: 120% 120vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
 }
 
 router-outlet + *  {
@@ -150,32 +150,38 @@ div {
 }
 
 #animated-picture {
-  opacity: 1;
-  width: 7vh;
-  height: 7vh;
+  width: 20vh;
+  height: 20vh;
   position: fixed;
-  top: 70vh;
-  left: 20%;
-  z-index: 5;
+  top: 55vh;
+  left: 1%;
   background: none;
   border: none;
+  opacity: 1;
+  z-index: 5;
+  animation: animated-picture-rotate 20s linear infinite;
 }
-
 
 @keyframes animated-picture-rotate{
     0%{
       transform: rotate(0deg);
-      position: absolute;
-      top: 90vh;
-      left: 10vh;
+      position: fixed;
+      top: 78vh;
+      left: -30%;
     }
-    50%{
-      
+
+    50% {
+      transform: rotate(720deg);
+      position: fixed;
+      top: 68vh;
+      left: 50%;
+      filter: invert(100%);
     }
+
     100%{
-      transform: rotate(0deg);
-      position: absolute;
-      top: 90vh;
-      left: 10vh;
+      transform: rotate(1480deg);
+      position: fixed;
+      top: 78vh;
+      left: 130%;
     }
 }
