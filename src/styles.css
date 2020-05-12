@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #ffffff;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/moon-night-sea2.jpg");
   background-repeat:no-repeat;
   background-size: 120% 120vh;
@@ -72,11 +72,11 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: rgb(189, 169, 79);  
+  color: rgb(243, 95, 9);  
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #3b2e09; 
+  text-shadow: 2px 2px 4px #864b24; 
 }
 
 h2 {
@@ -92,14 +92,14 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: rgb(189, 169, 79);  
+  color: rgb(243, 95, 9);   
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #3b2e09;  
+  text-shadow: 1px 1px 1px #864b24;
 }
 
 p, li { 
-  color: rgb(105, 94, 43);  
+  color: rgb(212, 79, 2);  
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 

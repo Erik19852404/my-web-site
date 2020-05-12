@@ -14,9 +14,9 @@ button{
 #home-btn {
   width: 5vh;
   height: 5vh;
-  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/home-icon-png-clip-art.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/home-icon-png-clip-art2.png);
 }
 
 #home-btn:hover{  
-  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/home-icon-colored.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/home-icon-colored2.png);
 }
