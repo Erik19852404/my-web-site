@@ -76,7 +76,7 @@ h1 {
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #723d0b; 
+  text-shadow: 2px 2px 4px #ffffff; 
 }
 
 h2 {
@@ -95,7 +95,7 @@ h2, h3 {
   color: rgb(0, 0, 0);   
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #723d0b; 
+  text-shadow: 1px 1px 1px #ffffff; 
 }
 
 p, li { 
@@ -124,7 +124,7 @@ a:hover {
 div {
   background-color: rgb(218, 198, 175);
   border: 0.1vh solid transparent;
-  border-color: rgb(212, 209, 175);
+  border-color: rgb(7, 7, 7);
   border-radius: 2%;
   opacity: 0.95;
 }
@@ -150,13 +150,12 @@ div {
 }
 
 #animated-picture {
-  opacity: 0.5;
+  opacity: 1;
   width: 7vh;
   height: 7vh;
   position: fixed;
-  top: 90vh;
-  left: 10vh;
-  animation: animated-picture-rotate 7s linear infinite;
+  top: 70vh;
+  left: 20%;
   z-index: 5;
   background: none;
   border: none;
