@@ -35,9 +35,9 @@ import { teamMembers } from '../team-members';
     ]),
     trigger('divTrigger', [
       transition('* <=> *', [
-        animate('100ms ease-in-out', keyframes([
+        animate('500ms ease-in-out', keyframes([
           style({ opacity: 0 }),
-          style({ opacity: 0.8 }),
+          style({ opacity: 0.95 }),
         ]))
       ]),      
     ]),

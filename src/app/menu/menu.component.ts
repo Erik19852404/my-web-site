@@ -16,7 +16,7 @@ import {
   animations: [
     trigger('btnTrigger', [
       state('activated', style({
-        color:  'white',
+        color:  'black',
         opacity: 0.5,
       })),
       state('deactivated', style({
