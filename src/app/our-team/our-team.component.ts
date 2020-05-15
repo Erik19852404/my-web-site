@@ -71,6 +71,6 @@ export class OurTeamComponent implements OnInit {
       this.index += 1;
 
     let myPhoto = document.getElementById("my_photo");
-    myPhoto.src = "https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/photo" + this.index + ".jpg";
+    myPhoto["src"] = "https://cdn.jsdelivr.net/gh/Erik19852404/my-web-site@master/src/assets/images/photo" + this.index + ".jpg";
   }
 }
