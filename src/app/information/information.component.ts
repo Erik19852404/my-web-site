@@ -69,7 +69,7 @@ export class InformationComponent implements OnInit {
   OpenOK(){
     let hrefOK = 'https://connect.ok.ru/offer?url=' + window.location.href;
     window.open(
-      hrefOK+encodeURIComponent(location.href), 
+      hrefOK, 
       'Поделиться',
       'resizable,scrollbars,status'); 
     return false;
@@ -78,7 +78,7 @@ export class InformationComponent implements OnInit {
   OpenWhatsApp(){
     let hrefTel = 'whatsapp://send?text=' + window.location.href;
     window.open(
-      hrefTel+encodeURIComponent(location.href), 
+      hrefTel, 
       'Поделиться',
       'resizable,scrollbars,status'); 
     return false;
@@ -87,7 +87,7 @@ export class InformationComponent implements OnInit {
   OpenTelegram(){
     let hrefTel = 'https://t.me/share/url?url=' + window.location.href;
     window.open(
-      hrefTel+encodeURIComponent(location.href), 
+      hrefTel, 
       'Поделиться',
       'resizable,scrollbars,status'); 
     return false;
